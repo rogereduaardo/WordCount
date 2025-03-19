@@ -18,4 +18,4 @@ for word, count in list(counts.items()):
         bigword = word #returns the most common word
         bigcount = count #returns the number of times the word repeats
  
-print(bigword, bigcount)
+print('The Most common word is: "' + str(bigword) + '" ' + " and it appears " + str(bigcount))
